@@ -1,4 +1,4 @@
-package com.pws.ExcpetionUser;
+package com.pws.LogUser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

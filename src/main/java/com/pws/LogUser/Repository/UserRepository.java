@@ -1,6 +1,6 @@
-package com.pws.ExcpetionUser.Repository;
+package com.pws.LogUser.Repository;
 
-import com.pws.ExcpetionUser.entity.User;
+import com.pws.LogUser.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

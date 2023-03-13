@@ -1,4 +1,4 @@
-package com.pws.ExcpetionUser.entity;
+package com.pws.LogUser.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
