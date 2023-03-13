@@ -1,4 +1,4 @@
-package com.pws.ExcpetionUser.exception;
+package com.pws.LogUser.exception;
 
 public class PhoneNumberNotFoundException extends RuntimeException {
     String message = "Phone Number Not Found";

@@ -1,4 +1,4 @@
-package com.pws.ExcpetionUser.dto;
+package com.pws.LogUser.dto;
 
 import lombok.Data;
 

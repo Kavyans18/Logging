@@ -1,11 +1,11 @@
-package com.pws.ExcpetionUser.service;
+package com.pws.LogUser.service;
 
-import com.pws.ExcpetionUser.Repository.UserRepository;
-import com.pws.ExcpetionUser.entity.User;
-import com.pws.ExcpetionUser.exception.EmailNotFoundException;
-import com.pws.ExcpetionUser.exception.IdNotFoundException;
-import com.pws.ExcpetionUser.exception.NameNotFoundException;
-import com.pws.ExcpetionUser.exception.PhoneNumberNotFoundException;
+import com.pws.LogUser.Repository.UserRepository;
+import com.pws.LogUser.entity.User;
+import com.pws.LogUser.exception.EmailNotFoundException;
+import com.pws.LogUser.exception.IdNotFoundException;
+import com.pws.LogUser.exception.NameNotFoundException;
+import com.pws.LogUser.exception.PhoneNumberNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -29,6 +29,7 @@ public class UserServiceImp implements UserService{
             return null;
         }
         User us = optional.get();
+        us.setUserId(id);
         us.setFirstName(user.getFirstName());
         us.setLastName(user.getLastName());
         us.setGender(user.getGender());

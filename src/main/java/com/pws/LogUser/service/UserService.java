@@ -1,6 +1,6 @@
-package com.pws.ExcpetionUser.service;
+package com.pws.LogUser.service;
 
-import com.pws.ExcpetionUser.entity.User;
+import com.pws.LogUser.entity.User;
 
 import java.util.List;
 

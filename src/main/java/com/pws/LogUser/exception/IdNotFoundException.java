@@ -1,4 +1,4 @@
-package com.pws.ExcpetionUser.exception;
+package com.pws.LogUser.exception;
 
 public class IdNotFoundException extends RuntimeException {
     private String message = "Id not found";

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pws</groupId>
-	<artifactId>ExceptionUser</artifactId>
+	<artifactId>LogUser</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ExceptionUser</name>
 	<description>Demo project for Spring Boot</description>
@@ -52,6 +52,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.28</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
